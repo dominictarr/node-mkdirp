@@ -14,5 +14,6 @@
         "type" : "git",
         "url" : "http://github.com/substack/node-mkdirp.git"
     },
+    "license" : "MIT/X11",
     "engines": { "node": "*" }
 }
