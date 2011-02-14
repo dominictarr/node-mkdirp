@@ -1,11 +1,9 @@
 {
     "name" : "mkdirp",
     "description" : "Recursively mkdir, like `mkdir -p`",
-    "version" : "0.0.1",
+    "version" : "0.0.2",
     "author" : "James Halliday <mail@substack.net> (http://substack.net)",
-    "modules" : {
-        "index" : "./index"
-    },
+    "main" : "./index",
     "keywords" : [
         "mkdir",
         "directory"
