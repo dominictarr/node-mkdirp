@@ -3,7 +3,7 @@ var fs = require('fs');
 
 exports.mkdirp = exports.mkdirP = function mkdirP (p, mode, f) {
     var cb = f || function () {};
-    if (p.charAt(0) != '/') { cb('Relative path: ' + p); return }
+    if (p.charAt(0) != '/') { cb(new Error('Relative path: ' + p)); return }
     
     var ps = path.normalize(p).split('/');
     path.exists(p, function (exists) {
